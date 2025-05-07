@@ -1,0 +1,19 @@
+{
+  "name": "api-tarefas",
+  "version": "1.0.0",
+  "description": "API REST para gerenciamento de tarefas",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "joi": "^17.9.2",
+    "uuid": "^9.0.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
